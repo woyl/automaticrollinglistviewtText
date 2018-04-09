@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.boerc.automaticrollinglistviewapplication.Main2Activity">
+    <ScrollView
+        android:id="@+id/scrollIndicatorDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+           >
+            <Button
+                android:id="@+id/btn_scroll_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ondfd"
+                android:text="1"/>
+            <Button
+                android:id="@+id/btn_scroll_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+            <Button
+                android:id="@+id/btn_scroll_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+            <Button
+                android:id="@+id/btn_scroll_stop_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:orientation="vertical" >
+                    <ListView
+                        android:id="@+id/lvMusics"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                    </ListView>
+
+                </LinearLayout>
+            <Button
+                android:id="@+id/btn_scroll_down1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+            <Button
+                android:id="@+id/btn_scroll_stop1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+            <Button
+                android:id="@+id/btn_scroll_stop_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"/>
+            <Button
+                android:id="@+id/btn_scroll_down2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"/>
+            <Button
+                android:id="@+id/btn_scroll_stop2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"/>
+            <Button
+                android:id="@+id/btn_scroll_stop_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
